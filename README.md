@@ -12,15 +12,15 @@ A **lazy-friendly** zsh config: automatically download CLI tools and plugins on 
 
 | Feature | Description |
 |---------|-------------|
-| 📁 **XDG Compliant** | All config/cache/data follow XDG standard directories — no `$HOME` pollution |
-| 🧩 **Modular Architecture** | Aliases, keybindings, functions, completions split into separate modules |
-| ⏳ **Lazy Completions** | Command completions load only on first TAB press — faster shell startup |
-| ⚡ **Auto Binary Manager** | [zbinary](.config/zsh/module/zbinary.zsh) — auto-downloads & updates 16 CLI tools from GitHub |
-| 🔌 **Auto Plugin Manager** | [zplugin](.config/zsh/module/zplugin.zsh) — auto-clones & loads zsh plugins on demand |
-| 🧹 **Auto Cleanup on Exit** | Cleans fnm temp dirs and system caches when shell exits (🔒 disabled by default — see Security) |
-| 🔄 **One-Key Update** | `all-update` updates binaries and plugins in one command |
-| 🛠️ **Utility Functions** | Built-in `clean_dsstore`, `clean_maven_cache` and more |
-| 🇨🇳 **Mirror Acceleration** | Built-in mirror acceleration |
+| 📁 **XDG Compliant** | No `$HOME` pollution — config/cache/data follow XDG |
+| 🧩 **Modular Architecture** | Aliases, keybindings, functions split into modules |
+| ⏳ **Lazy Completions** | Completions load on first TAB — faster startup |
+| ⚡ **Auto Binary Manager** | [zbinary](.config/zsh/module/zbinary.zsh) — auto-downloads 16 CLI tools |
+| 🔌 **Auto Plugin Manager** | [zplugin](.config/zsh/module/zplugin.zsh) — auto-installs zsh plugins |
+| 🧹 **Auto Cleanup on Exit** | Cleans stale temp dirs on shell exit (🔒 off by default) |
+| 🔄 **One-Key Update** | `all-update` updates tools & plugins at once |
+| 🛠️ **Utility Functions** | `clean_dsstore`, `clean_maven_cache` and more |
+| 🇨🇳 **Mirror Acceleration** | Built-in mirror for faster downloads |
 
 ---
 

@@ -72,11 +72,13 @@ mkdir -p "$HOME/.local/workspace"
 
 # Check if already cloned
 if [[ ! -d "$SOURCE_DIR" ]]; then
-  echo -e "${CYAN}>>> Cloning LazyDotfiles...${NC}"
+  echo -e "${CYAN}>>> Cloning lazy-dotfiles...${NC}"
+  echo ""
   mkdir -p "$HOME/.config/zsh"
   git clone https://github.com/Jonathan5643/lazy-dotfiles.git "$SOURCE_DIR"
 else
-  echo -e "${CYAN}>>> Updating LazyDotfiles...${NC}"
+  echo -e "${CYAN}>>> Updating lazy-dotfiles...${NC}"
+  echo ""
   git -C "$SOURCE_DIR" pull --ff-only
 fi
 echo ""

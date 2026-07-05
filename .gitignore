@@ -1,0 +1,8 @@
+# macOS
+.DS_Store
+
+# Claude Code
+.claude/
+
+# Local source mapping
+SOURCE.md
